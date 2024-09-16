@@ -1,0 +1,93 @@
+body{
+    background-image: url(sunset-mountain-peaks-macos-wallpaper-4k.jpg);
+    background-size: cover;
+    background-size: 100%;
+    position: relative;
+    
+ 
+    
+    
+    
+}
+
+
+
+
+.profile-pic{
+    
+    width: 50px;
+    height: 50px;
+    margin-right: 22px;
+   
+    border-radius: 100%;
+}
+.img-div{
+    position: absolute;
+    top: 0;
+    
+    
+    width: 130px;
+    
+   margin-left: 30px;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   
+   
+
+}
+.name{
+    font-family: monospace;
+    display: inline;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(212, 225, 19);
+    
+}
+.discription{
+    position: absolute;
+    top: 250px;
+   display: flex;
+   color: white;
+   font-size: 80px;
+   font-weight: bolder;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 30px;
+ 
+   
+}
+
+.div-button{
+    position: absolute;
+    top: 600px;
+    left: 80px;
+}
+.start-now{
+   padding-left: 20px;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   padding-right: 20px;
+   border: none;
+   border-radius:25px;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: roboto,arial;
+   cursor: pointer;
+   transition: opacity .4s ;
+   
+
+}
+.start-now:hover{
+    opacity: .78;
+}
+.start-now:active{
+    color:purple;
+}
+.arrow{
+   
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 18px;
+}
