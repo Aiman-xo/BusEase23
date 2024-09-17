@@ -1,0 +1,26 @@
+.image {
+    height: 100%;
+    width: 55%;
+}
+
+.image {
+    top: 0;
+    height: 700px;
+    flex: 1 1 auto;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #3c2b4b;
+
+}
+
+.login {
+    width: 45%;
+    height: 100%;
+}
+
+.login {
+    flex: 0 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+}
