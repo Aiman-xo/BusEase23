@@ -1,6 +1,6 @@
 body{
     background-image: url("black earth.jpg");
-    object-fit:contain;
+    object-fit:cover;
     object-position:left;
    
     position: relative;
