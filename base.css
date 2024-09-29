@@ -14,28 +14,20 @@
     
 }
  */
+ body{
+  transition: animation smooth;
+  margin: 0;
 
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
+  
+  
+ }
+ .background{
+  height:100vh;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-
-}
-
-.background {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
-}
+ }
+
+
 
 .profile-pic {
 
@@ -59,6 +51,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  opacity: 0;
+  animation: fadeIn .65s ease-in-out forwards;
+ 
 
 
 
@@ -85,8 +80,35 @@
   font-weight: bolder;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 50px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: fadeInleft 1.05s ease-in-out forwards;
+  
+  
 
 
+
+}
+@keyframes fadeInleft {
+  0%{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+    
+  }
+  100%{
+    opacity: 1;
+    
+  }
 }
 
 .para {
@@ -130,6 +152,9 @@
   margin: 0;
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
+  opacity: 0;
+  animation: fadeIn .65s ease-in-out forwards;
+
 }
 
 .start-now:disabled {
@@ -160,11 +185,13 @@
   padding: 1.2rem 3rem;
   position: relative;
   text-transform: uppercase;
+ 
 }
 
 .start-now .original {
   background: #fff;
   color: #000;
+ 
 
 
   display: grid;
