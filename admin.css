@@ -106,6 +106,7 @@ p {
     justify-content: center;
     position: relative;
     top: 131px;
+   
 }
 
 button {
@@ -118,4 +119,5 @@ button {
     padding-left: 15px;
     font-size: medium;
     color: white;
+    cursor: pointer;
 }
