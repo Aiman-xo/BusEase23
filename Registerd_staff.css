@@ -64,6 +64,10 @@ td input {
     border-radius: 4px;
     text-align: center;
     cursor: pointer;
+  
+}
+a{
+    text-decoration: none;
 }
 
 .add-row:hover {
