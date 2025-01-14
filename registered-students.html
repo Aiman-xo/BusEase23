@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registered-students.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management</h1>
+        <table id="studentTable">
+          <thead>
+            <tr>
+              <th>Student ID</th>
+              <th>Student Name</th>
+              <th>Place</th>
+              <th>Fee Status</th>
+              <th>Department</th>
+              <th>Phone Number</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rows will be dynamically added here -->
+          </tbody>
+        </table>
+        <button id="addStudentBtn">+ Add Student</button>
+      </div>
+    
+      <!-- Add/Edit Student Modal -->
+      <div id="studentModal" class="modal hidden">
+        <div class="modal-content">
+          <h2 id="modalTitle">Add Student</h2>
+          <form id="studentForm">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" required>
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" required>
+            <label for="place">Place:</label>
+            <input type="text" id="place" required>
+            <label for="feeStatus">Fee Status:</label>
+            <input type="text" id="feeStatus" required>
+            <label for="department">Department:</label>
+            <input type="text" id="department" required>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" required>
+            <button type="submit">Save</button>
+            <button type="button" id="cancelBtn">Cancel</button>
+          </form>
+        </div>
+      </div>
+    
+</body>
+</html>
