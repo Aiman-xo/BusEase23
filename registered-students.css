@@ -34,12 +34,23 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
   }
   
   button:hover {
     background-color: #0056b3;
   }
-  
+  .del{
+    padding-left: 39px;
+    padding-right: 39px;
+    background-color: rgb(175, 0, 0);
+  }
+  .upd{
+    padding-left: 37px;
+    padding-right: 37px;
+    background-color: green;
+  }
   .modal {
     position: fixed;
     top: 0;
